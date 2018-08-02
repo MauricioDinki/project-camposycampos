@@ -1,0 +1,63 @@
+{
+  "es": {
+    "nav": {
+      "logo": "/img/logos/logo-cyc-white.png",
+      "sections": [
+        {
+          "section": "inicio",
+          "link": "/es/index.html",
+          "viewName": "home"
+        },
+        {
+          "section": "servicios",
+          "link": "/es/servicios.html",
+          "viewName": "services"
+        },
+        {
+          "section": "nosotros",
+          "link": "/es/nosotros.html",
+          "viewName": "aboutus"
+        },
+        {
+          "section": "blog",
+          "link": "/es/index.html",
+          "viewName": "blog"
+        },
+        {
+          "section": "contacto",
+          "link": "/es/contacto.html",
+          "viewName": "contact"
+        }
+      ]
+    },
+    "footer": {
+      "logo": "/img/logos/logo-cyc-white.png",
+      "sections": [
+        {
+          "section": "servicios",
+          "link": "/es/servicios.html",
+          "viewName": "services"
+        },
+        {
+          "section": "nosotros",
+          "link": "/es/nosotros.html",
+          "viewName": "aboutus"
+        },
+        {
+          "section": "blog",
+          "link": "/es/blog.html",
+          "viewName": "blog"
+        },
+        {
+          "section": "contacto",
+          "link": "/es/contacto.html",
+          "viewName": "contact"
+        }
+      ],
+      "privacySection": "Aviso de Privacidad",
+      "privacyLink": "/es/aviso-privacidad.html",
+      "privacyViewName": "notice-privacy",
+      "copyright": "Copyright® Campos & Campos 2018"
+    }
+  }
+}

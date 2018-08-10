@@ -106,6 +106,16 @@
         "subtitle": "entradas blog"
       }
     },
+    "aboutus": {
+      "title": "nosotros",
+      "intro": {
+        "img": "/img/aboutus/aboutus-building.jpg",
+        "title": "trabajando juntos",
+        "subtitle": "nuestra historia",
+        "desc": "Campos y Campos Abogados es una firma legal fundada por abogados penalistas con amplia experiencia en diversas áreas del derecho penal, con el pensamiento de brindarle a nuestros clientes una asesoría y defensa de sus intereses de forma incondicional, siempre utilizando el conocimiento junto con la estrategia como la mejor acción para alcanzar nuestra única verdad: la jurídica. Nuestra firma está comprometida en brindar únicamente un servicio de excelencia, por lo que nuestros integrantes están en constante capacitación en distintas universidades a nivel nacional e internacional siempre conscientes que la razón impera, el conocimiento crea y la experiencia distingue.",
+        "btn": "contacto"
+      }
+    },
     "footer": {
       "logo": "/img/logos/logo-cyc-white.png",
       "sections": [

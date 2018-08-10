@@ -7,10 +7,10 @@ var siteNavbar = document.querySelector('.nav');
 function doSomething(scroll_pos) {
   if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/project-camposycampos/index.html' || window.location.pathname === '/project-camposycampos/') {
     if (scroll_pos > 30) {
-      siteNavbar.classList.add('navbar-scroll');
+      siteNavbar.classList.add('nav-scroll');
 
     } else {
-      siteNavbar.classList.remove('navbar-scroll');
+      siteNavbar.classList.remove('nav-scroll');
     }
   }
 }
@@ -34,7 +34,7 @@ window.addEventListener('scroll', function(e) {
 });
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '85%';
+  document.querySelector('#menuContainer').style.width = '100%';
   document.querySelector('#hamburgerMenu').style.display = 'flex';
 }
 

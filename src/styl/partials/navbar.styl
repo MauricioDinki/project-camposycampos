@@ -10,16 +10,32 @@
   top 0
   width 100%
   z-index 12
+  transition height 0.3s ease-out
+
+  &-lang
+    color $whiteT1
+    font-size $fs10
+    letter-spacing 5.1px
+    text-transform uppercase
+    margin-right 10px
+
+    &-container
+      &-mobile
+        display none
 
   &-logo
     height 14px
     width 230px
 
+    &-container
+      height 14px
+
   &-scroll
     align-items center
-    background-color green
-    box-shadow 0 6px 8px 0 rgba(0,0,0,0.2)
-    height 100px
+    background-color $blueT2
+    box-shadow 0 2px 22px 0 rgba(0, 0, 0, 0.5)
+    height 57px
+    transition height 0.3s ease-out
 
   &-option
     color black
@@ -71,16 +87,6 @@
 .active-section
   color white
 
-// @media screen and (max-width: 876px)
-//   .nav
-//     justify-content space-between
-//     height 70px
-//     padding 0 18px
-
-//     &-option
-//       &-container
-//         display none
-
   .hamburger
     background-color transparent
     display flex
@@ -88,17 +94,20 @@
     justify-content center
     width 33px
 
-    // &-visibility
-    //   cursor pointer
-    //   position initial
-
     &-logo
-      height 20px
-      width 94px
+      height 14px
+      width 230px
+
+      &-container
+        height 14px
 
     &-close
-      height 16px
-      width 16px
+      height 12px
+      width 12px
+
+      &-container
+        cursor pointer
+        display flex
 
     &-menu
       &-container
@@ -124,15 +133,15 @@
         display flex
         flex-direction row
         justify-content space-between
-        padding 22px 36px 50px 36px
+        padding 40px 110px 50px 110px
 
       &-body
-        margin-left 36px
+        padding 0 110px
 
     &-text
       color $whiteT1
       font-size $fs29
-      display block
+      display inline-block
       letter-spacing 8.1px
       margin 5px 0
       padding 5px 0
@@ -161,3 +170,64 @@
 
         &:nth-child(2)
           margin 4px 0
+
+@media screen and (max-width 700px)
+  .nav
+    height 57px
+
+    &-lang
+      &-container
+        display none
+
+        &-mobile
+          border-bottom solid 1px $grayT1
+          display block
+          padding-bottom 23px
+          
+
+    &-logo
+      height 9px
+      width 148px
+
+      &-container
+        height 9px
+
+    &-hamburger
+      &-text
+        display none
+
+  .hamburger
+    &-visibility
+      right 30px
+
+    &-logo
+      height 9px
+      width 148px
+
+      &-container
+        height 9px
+
+    &-line
+      &-icon
+        width 21px
+
+        &:nth-child(2)
+          margin 5px 0
+
+    &-menu
+      &-container
+        background-image url("/img/backgrounds/hamburger-bg-mobile.png")
+
+      &-header
+        padding 22px 27px 25px 27px
+
+      &-body
+        padding 0 27px
+
+    &-text
+      font-size 16px
+      letter-spacing 4.5px
+      margin 15px 0
+
+      &-container
+        margin 25px 0 0 0

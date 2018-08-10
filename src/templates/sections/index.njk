@@ -6,6 +6,63 @@
 
 {% block content %}
 <section class="home">
-  
+  <section class="home-cover">
+    <span class="home-cover-intro helveneue-bold">{{es.home.cover.introPart1}}<span>{{es.home.cover.introPart2}}</span></span>
+    <div class="home-cover-carousel owl-carousel">
+      {% for carousel in es.home.cover.carousel %}
+      <div>
+        <h2 class="home-cover-carousel-title bebasneue-bold">{{carousel.textPart1}}<br>{{carousel.textPart2}}</h2>
+        <a href="">
+          <button class="btn helveneue-medium">{{carousel.btn}}</button>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-services">
+    <h2 class="home-services-title helveneue-bold">{{es.home.services.title}}</h2>
+    <div class="home-services-carousel owl-carousel">
+      {% for service in es.home.services.carousel %}
+      <div class="home-services-content">
+        <img class="home-services-img" src="{{service.img}}">
+        <span class="home-services-desc helveneue-bold">{{service.desc}}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-compliance">
+    <h2 class="home-compliance-title helveneue-bold">{{es.home.compliance.title}}</h2>
+    <div class="home-compliance-info">
+      <h3 class="home-compliance-subtitle bebasneue-bold">{{es.home.compliance.subtitlePart1}}<br><span>{{es.home.compliance.subtitlePart2}}</span></h3>
+      <a href="">
+        <button class="btn helveneue-medium">{{es.home.compliance.btn}}</button>
+      </a>
+    </div>
+    <div class="home-compliance-img-container">
+      {% for img in es.home.compliance.images %}
+      <img class="home-compliance-img {{img.itemClass}}" src="{{img.item}}">
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-blog">
+    <img class="home-blog-img" src="{{es.home.blog.img}}">
+    <div class="home-blog-headers">
+      <h3 class="home-blog-title helveneue-bold">{{es.home.blog.title}}</h3>
+      <h4 class="home-blog-subtitle bebasneue-bold">{{es.home.blog.subtitle}}</h4>
+    </div>
+    <div class="home-blog-card">
+      <h4 class="home-blog-card-date helveneue-medium">Post 24 Abril, 2017</h4>
+      <h5 class="home-blog-card-title bebasneue-bold">reparación integral</h5>
+      <p class="home-blog-card-desc helveneue-medium">El presente artículo no pretende polarizar las posiciones sobre el tema, sino generar reflexión y mayor investigación e interés para analizar la necesidad de abordar el tópico desde una perspectiva multidisciplinar.</p>
+      <div>
+        <a href="">
+          <button class="btn helveneue-medium">leer más</button>
+        </a>
+      </div>
+    </div>
+  </section>
 </section>
 {% endblock %}

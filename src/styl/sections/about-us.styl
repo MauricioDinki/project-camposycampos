@@ -1,0 +1,98 @@
+.aboutus
+  margin-top 150px
+
+  &-intro
+    margin 0 auto
+    width 773px
+
+    &-content
+      display flex
+      flex-direction row
+      margin-top 40px
+
+    &-title
+      color $whiteT1
+      font-size 58px
+      letter-spacing 10px
+      text-transform uppercase
+
+    &-img
+      height 384px
+      width 333px
+
+  &-info
+    width 440px
+
+    &-headers
+      border-bottom solid 1px $grayT1
+      padding 7px 0 5px 69px
+
+    &-subtitle
+      color $whiteT1
+      font-size $fs9
+      letter-spacing 4px
+      text-transform uppercase
+
+    &-title
+      color $whiteT1
+      font-size 21px
+      letter-spacing 9px
+      line-height 35px
+      text-transform uppercase
+
+    &-body
+      padding 15px 0 0 69px
+
+    &-desc
+      color $whiteT1
+      font-size $fs11
+      letter-spacing 1.3px
+      line-height 18px
+      margin-bottom 30px
+
+@media screen and (max-width 860px)
+  .aboutus
+    margin-bottom 50px
+
+    &-intro
+      width 440px
+
+      &-content
+        flex-direction column
+
+    &-info
+      margin-top 70px
+
+      &-headers,
+      &-body
+        padding-left 30px
+
+@media screen and (max-width 500px)
+  .aboutus
+    margin-top 100px
+
+    &-intro
+      width 280px
+
+      &-content
+        flex-direction column-reverse
+
+      &-title
+        font-size 40px
+
+      &-img
+        height 322px
+        width 280px
+
+    &-info
+      margin 0 0 50px 0
+      width 280px
+
+      &-headers,
+      &-body
+        padding-left 20px
+        padding-right 20px
+
+      &-title
+        line-height 25px
+        margin 12px 0

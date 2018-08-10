@@ -15,7 +15,7 @@ html
 
 body
   font-size inherit
-  margin 102px 0 360px 0
+  margin 0 0 300px 0
 
   &.noscroll
     overflow hidden
@@ -91,6 +91,23 @@ input, textarea, button, select
 textarea
   resize none
 // END FORMS //
+
+h1, h2, h3, h4, h5, h6, p
+  margin 0
+
+.backgrounds
+  &-home
+    background-image url("../img/backgrounds/home-cover-bg.png"), url("../img/backgrounds/footer-bg.png"), url("../img/backgrounds/home-compliance-bg.png"), url("../img/backgrounds/home-blog-bg.png")
+    background-position top, bottom, left top 785px, bottom 18% right
+    background-repeat no-repeat 
+    background-size 100%, 100%, 60%, 40%
+    bottom 0
+    height 100%
+    opacity 0.2
+    position absolute
+    top 0
+    width 100%
+    z-index -2
 
 @import 'partials/navbar'
 

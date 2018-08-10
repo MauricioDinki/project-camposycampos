@@ -30,6 +30,82 @@
         }
       ]
     },
+    "home": {
+      "cover": {
+        "introPart1": "campos y campos",
+        "introPart2": "abogados",
+        "carousel": [
+          {
+            "textPart1": "especialistas",
+            "textPart2": "en derecho penal",
+            "btn": "contacto"
+          },
+          {
+            "textPart1": "especialistas",
+            "textPart2": "en derecho penal",
+            "btn": "contacto"
+          }
+        ]
+      },
+      "services": {
+        "title": "servicios",
+        "carousel": [
+          {
+            "img": "/img/home/home-criminal-investigation.png",
+            "desc": "investigación penal"
+          },
+          {
+            "img": "/img/home/home-criminal-process.jpg",
+            "desc": "proceso penal"
+          },
+          {
+            "img": "/img/home/home-protection.png",
+            "desc": "amparo"
+          },
+          {
+            "img": "/img/home/home-execution-sentences.jpg",
+            "desc": "ejecución de sentencias"
+          },
+          {
+            "img": "/img/home/home-compliance.png",
+            "desc": "compliance"
+          }
+        ]
+      },
+      "compliance": {
+        "title": "compliance",
+        "subtitlePart1": "CUIDAMOS LA",
+        "subtitlePart2": "SEGURIDAD DE TU EMPRESA",
+        "btn": "contacto",
+        "images": [
+          {
+            "item": "/img/home/home-compliance-1.jpg",
+            "itemClass": "compliance-1"
+          },
+          {
+            "item": "/img/home/home-compliance-2.jpg",
+            "itemClass": "compliance-2"
+          },
+          {
+            "item": "/img/home/home-compliance-3.jpg",
+            "itemClass": "compliance-3"
+          },
+          {
+            "item": "/img/home/home-compliance-4.jpg",
+            "itemClass": "compliance-4"
+          },
+          {
+            "item": "/img/home/home-compliance-5.jpg",
+            "itemClass": "compliance-5"
+          }
+        ]
+      },
+      "blog": {
+        "img": "/img/home/home-blog-img.jpg",
+        "title": "conoce más",
+        "subtitle": "entradas blog"
+      }
+    },
     "footer": {
       "logo": "/img/logos/logo-cyc-white.png",
       "sections": [

@@ -1,0 +1,17 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Aviso de privacidad{% endblock %}
+
+{% set view_name = 'notice-privacy' %}
+
+{% block content %}
+<section class="privacy">
+  <h1 class="privacy-title bebasneue-bold">{{es.noticePrivacy.title}}</h1>
+  <section class="privacy-content">
+    <p class="privacy-content-paragraph helveneue-medium">{{es.noticePrivacy.paragraph1}}</p>
+    <p class="privacy-content-paragraph helveneue-medium">{{es.noticePrivacy.paragraph2}}</p>
+    <p class="privacy-content-paragraph helveneue-medium">{{es.noticePrivacy.paragraph3}}</p>
+  </section>
+</section>
+<div class="backgrounds-privacy"></div>
+{% endblock %}

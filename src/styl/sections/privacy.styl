@@ -1,0 +1,45 @@
+.privacy
+  margin 120px 0 15px 0
+
+  &-title
+    color $whiteT1
+    font-size 32px
+    letter-spacing 10px
+    line-height 70px
+    margin-left 10%
+    text-transform uppercase
+
+  &-content
+    margin 0 10%
+
+    &:before
+      border-top solid 1px $grayT1
+      content ""
+      display block
+      padding-top 25px
+      width 343px
+
+    &-paragraph
+      color $whiteT1
+      font-size 13px
+      letter-spacing 1.6px
+      line-height 20px
+      margin-bottom 20px
+
+@media screen and (max-width 480px)
+  .privacy
+    margin-top 100px
+
+    &-title
+      font-size 25px
+      letter-spacing 8px
+      line-height 30px
+
+    &-content
+      margin-top 25px
+
+      &:before
+        width 200px
+
+      &-paragraph
+        font-size $fs11

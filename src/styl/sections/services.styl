@@ -1,0 +1,126 @@
+.services
+  margin-top 140px
+
+  &-title
+    color $whiteT1
+    font-size 58px
+    letter-spacing 10px
+    text-align center
+    text-indent 10px
+    text-transform uppercase
+
+  &-content
+    margin 100px auto 0 auto
+    width 804px
+
+  &-card
+    &-container
+      display flex
+      flex-direction row
+      margin-bottom 56px
+
+      &:nth-child(2),
+      &:nth-child(5)
+        flex-direction row-reverse
+
+    &-info
+      display flex
+      flex-direction column
+      justify-content center
+
+    &-number
+      color $grayT1
+      font-size 27px
+      letter-spacing 8.5px
+      line-height 23px
+
+    &-desc
+      color $whiteT1
+      font-size 16px
+      letter-spacing 7px
+      line-height 23px
+      margin-top 20px
+      text-transform uppercase
+
+  &-criminal-investigation
+    height 262px
+    margin-right 85px
+
+  &-criminal-process
+    height 343px
+    margin-left 85px
+
+  &-execution-sentences
+    height 262px
+    margin-right 85px
+
+  &-protection
+    height 262px
+    margin-right 85px
+
+  &-compliance
+    height 343px
+    margin-left 85px
+
+  &-criminal-investigation,
+  &-criminal-process,
+  &-execution-sentences,
+  &-protection,
+  &-compliance
+    box-shadow 0 31px 30px 0 rgba(0, 0, 0, 0.5)
+    width auto
+
+@media screen and (max-width 900px)
+  .services
+    &-content
+      width 552px
+
+    &-criminal-investigation
+      height 190px
+      margin-right 40px
+
+    &-criminal-process
+      height 241px
+      margin-left 40px
+
+    &-execution-sentences
+      height 160px
+      margin-right 40px
+
+    &-protection
+      height 160px
+      margin-right 40px
+
+    &-compliance
+      height 241px
+      margin-left 40px
+
+@media screen and (max-width 600px)
+  .services
+    margin-top 100px
+
+    &-title
+      font-size 40px
+
+    &-content
+      padding 0 30px
+      margin-top 60px
+      width 100%
+
+    &-card
+      &-container,
+      &-container:nth-child(2),
+      &-container:nth-child(5)
+        flex-direction column-reverse
+
+      &-desc
+        margin-top 10px
+
+    &-criminal-investigation,
+    &-criminal-process,
+    &-execution-sentences,
+    &-protection,
+    &-compliance
+      height auto
+      width 100%
+      margin 18px 0 0 0

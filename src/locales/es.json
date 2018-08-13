@@ -106,6 +106,49 @@
         "subtitle": "entradas blog"
       }
     },
+    "services": {
+      "title": "Servicios",
+      "info": [
+        {
+          "img": "/img/services/service-criminal-investigation.jpg",
+          "imgClass": "services-criminal-investigation",
+          "imgAlt": "If you require a service of criminal investigation",
+          "number": ".01",
+          "desc": "investigación",
+          "descLineBreak": "penal"
+        },
+        {
+          "img": "/img/services/service-criminal-process.jpg",
+          "imgClass": "services-criminal-process",
+          "imgAlt": "If you require a service of criminal process",
+          "number": ".02",
+          "desc": "proceso",
+          "descLineBreak": "penal"
+        },
+        {
+          "img": "/img/services/service-execution-sentences.jpg",
+          "imgClass": "services-execution-sentences",
+          "imgAlt": "If you require a service of execution sentences",
+          "number": ".03",
+          "desc": "ejecución",
+          "descLineBreak": "de sentencias"
+        },
+        {
+          "img": "/img/services/service-protection.jpg",
+          "imgClass": "services-protection",
+          "imgAlt": "If you require a service of protection",
+          "number": ".04",
+          "desc": "amparo"
+        },
+        {
+          "img": "/img/services/service-compliance.jpg",
+          "imgClass": "services-compliance",
+          "imgAlt": "If you require a service of compliance",
+          "number": ".05",
+          "desc": "compliance"
+        }
+      ]
+    },
     "aboutus": {
       "title": "nosotros",
       "intro": {

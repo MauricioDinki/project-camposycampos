@@ -53,11 +53,11 @@
       border-color $grayT1
       transition all 0.2s ease-out
 
-    &:hover + .contact-label
+    &:hover ~ .contact-label
       color $grayT1
       transition all 0.2s ease-out
     
-    & + .contact-label
+    & ~ .contact-label
       color $whiteT1
       font-size 12px
       left 0
@@ -72,13 +72,13 @@
       outline none
       transition all .2s ease-out
     
-    &:focus + .contact-label,
-    &.has-value + .contact-label
+    &:focus ~ .contact-label,
+    &.has-value ~ .contact-label
       color $grayT1
       font-size 12px
       top -15px
 
-    &.has-value:not(:focus) + .contact-label
+    &.has-value:not(:focus) ~ .contact-label
       color $grayT1
 
     &-container

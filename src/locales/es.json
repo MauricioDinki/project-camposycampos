@@ -36,6 +36,7 @@
       ]
     },
     "home": {
+      "contactLink": "/contacto.html",
       "cover": {
         "introPart1": "campos y campos",
         "introPart2": "abogados",

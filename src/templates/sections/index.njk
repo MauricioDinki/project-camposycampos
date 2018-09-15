@@ -12,7 +12,7 @@
       {% for carousel in es.home.cover.carousel %}
       <div>
         <h2 class="home-cover-carousel-title bebasneue-bold">{{carousel.textPart1}}<br>{{carousel.textPart2}}</h2>
-        <a href="">
+        <a href="{{es.home.contactLink}}">
           <button class="btn helveneue-medium">{{carousel.btn}}</button>
         </a>
       </div>
@@ -36,7 +36,7 @@
     <h2 class="home-compliance-title helveneue-bold">{{es.home.compliance.title}}</h2>
     <div class="home-compliance-info">
       <h3 class="home-compliance-subtitle bebasneue-bold">{{es.home.compliance.subtitlePart1}}<br><span>{{es.home.compliance.subtitlePart2}}</span></h3>
-      <a href="">
+      <a href="{{es.home.contactLink}}">
         <button class="btn helveneue-medium">{{es.home.compliance.btn}}</button>
       </a>
     </div>

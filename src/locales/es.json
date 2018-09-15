@@ -5,32 +5,32 @@
       "sections": [
         {
           "section": "inicio",
-          "link": "/es/index.html",
+          "link": "index.html",
           "viewName": "home"
         },
         {
           "section": "servicios",
-          "link": "/es/servicios.html",
+          "link": "servicios.html",
           "viewName": "services"
         },
         {
           "section": "compliance",
-          "link": "/es/compliance.html",
+          "link": "compliance.html",
           "viewName": "compliance"
         },
         {
           "section": "nosotros",
-          "link": "/es/nosotros.html",
+          "link": "nosotros.html",
           "viewName": "aboutus"
         },
         {
           "section": "blog",
-          "link": "/es/index.html",
+          "link": "index.html",
           "viewName": "blog"
         },
         {
           "section": "contacto",
-          "link": "/es/contacto.html",
+          "link": "contacto.html",
           "viewName": "contact"
         }
       ]
@@ -180,32 +180,32 @@
       "sections": [
         {
           "section": "servicios",
-          "link": "/es/servicios.html",
+          "link": "servicios.html",
           "viewName": "services"
         },
         {
           "section": "compliance",
-          "link": "/es/compliance.html",
+          "link": "compliance.html",
           "viewName": "compliance"
         },
         {
           "section": "nosotros",
-          "link": "/es/nosotros.html",
+          "link": "nosotros.html",
           "viewName": "aboutus"
         },
         {
           "section": "blog",
-          "link": "/es/blog.html",
+          "link": "blog.html",
           "viewName": "blog"
         },
         {
           "section": "contacto",
-          "link": "/es/contacto.html",
+          "link": "contacto.html",
           "viewName": "contact"
         }
       ],
       "privacySection": "Aviso de Privacidad",
-      "privacyLink": "/es/aviso-privacidad.html",
+      "privacyLink": "aviso-privacidad.html",
       "privacyViewName": "notice-privacy",
       "copyright": "Copyright® Campos & Campos 2018"
     }

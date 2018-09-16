@@ -3,12 +3,14 @@
 
   &-cover
     margin 0 139px
+
     &-intro
       border-bottom solid 1px $grayT1
       color $grayT1
       display block
       font-size $fs9
       letter-spacing 4px
+      margin-bottom 30px
       padding-bottom 11px
       text-transform uppercase
       width 319px
@@ -17,8 +19,18 @@
         color $whiteT1
         margin-left 22px
 
+    &-slide
+      &-two
+        align-items center
+        display flex
+        flex-direction column
+
+        &-intro
+          text-align center
+          width 520px
+
     &-carousel
-      margin 30px 0 90px 0
+      margin 0 0 90px 0
       position relative
 
       &-title
@@ -27,7 +39,17 @@
         letter-spacing 3.6px
         line-height 70px
         text-transform uppercase
-        max-width 502px
+
+      &-subtitle
+        color $whiteT1
+        font-size 11px
+        letter-spacing 3.2px
+        line-height 20px
+        margin-top 10px
+        text-transform uppercase
+
+        & span
+          color $grayT1
 
       & a
         display inline-block
@@ -92,13 +114,13 @@
       flex-direction column
       position absolute
       right -55px
-      top 75px
+      top 25px
 
     & .owl-dot
         background-color $grayT1 !important
         border-radius 100px
         height 4px
-        margin 34px 0
+        margin 20px 0
         width 4px
 
     & .owl-dot.active

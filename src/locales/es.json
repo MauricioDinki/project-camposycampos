@@ -57,24 +57,44 @@
         "title": "servicios",
         "carousel": [
           {
-            "img": "/img/home/home-criminal-investigation.png",
-            "desc": "investigación penal"
+            "img": "/img/home/carpeta-de-investigacion.png",
+            "desc": "carpeta de investigación"
           },
           {
-            "img": "/img/home/home-criminal-process.jpg",
-            "desc": "proceso penal"
+            "img": "/img/home/amparo-penal.png",
+            "desc": "amparo penal"
           },
           {
-            "img": "/img/home/home-protection.png",
-            "desc": "amparo"
-          },
-          {
-            "img": "/img/home/home-execution-sentences.jpg",
+            "img": "/img/home/ejecucion-de-sentencias.png",
             "desc": "ejecución de sentencias"
           },
           {
-            "img": "/img/home/home-compliance.png",
-            "desc": "compliance"
+            "img": "/img/home/compliance-penal.png",
+            "desc": "compliance penal"
+          },
+          {
+            "img": "/img/home/consultoria-juridica.png",
+            "desc": "consultoría jurídica"
+          },
+          {
+            "img": "/img/home/asesoria-para-manejo-de-crisis-en-contexto-litigioso.png",
+            "desc": "asesoría para manejo de crisis en contexto litigioso"
+          },
+          {
+            "img": "/img/home/derecho-penal-economico-y-financiero.png",
+            "desc": "derecho penal económico y financiero"
+          },
+          {
+            "img": "/img/home/derecho-penal-patrimonial-y-fiscal.png",
+            "desc": "derecho penal patrimonial y fiscal"
+          },
+          {
+            "img": "/img/home/derecho-mercantil-corporativo-y-contratos.jpg",
+            "desc": "derecho mercantil, corporativo y contratos"
+          },
+          {
+            "img": "/img/home/extradicion.jpg",
+            "desc": "extradición"
           }
         ]
       },

@@ -7,11 +7,12 @@
 {% block content %}
 <section class="home">
   <section class="home-cover">
-    <span class="home-cover-intro helveneue-bold">{{es.home.cover.introPart1}}<span class="helveneue">{{es.home.cover.introPart2}}</span></span>
     <div class="home-cover-carousel owl-carousel">
       {% for carousel in es.home.cover.carousel %}
-      <div>
-        <h2 class="home-cover-carousel-title bebasneue-bold">{{carousel.textPart1}}<br>{{carousel.textPart2}}</h2>
+      <div class="{{carousel.slideTwoClass}}">
+        <span class="home-cover-intro {{carousel.slideTwoIntroClass}} helveneue-bold">{{es.home.cover.introPart1}}<span class="helveneue">{{es.home.cover.introPart2}}</span></span>
+        <h2 class="home-cover-carousel-title bebasneue-bold">{{carousel.textPart1}}{% if carousel.textPart2 %}<br>{{carousel.textPart2}}{% endif %}</h2>
+        {% if carousel.desc %}<h3 class="home-cover-carousel-subtitle helveneue">{{carousel.desc}} <span class="helveneue">{{carousel.descPart2}}</span></h3>{% endif %}
         <a href="{{es.home.contactLink}}">
           <button class="btn helveneue-medium">{{carousel.btn}}</button>
         </a>

@@ -5,34 +5,40 @@
       "sections": [
         {
           "section": "inicio",
-          "link": "/es/index.html",
+          "link": "index.html",
           "viewName": "home"
         },
         {
           "section": "servicios",
-          "link": "/es/servicios.html",
+          "link": "servicios.html",
           "viewName": "services"
         },
         {
+          "section": "compliance",
+          "link": "compliance.html",
+          "viewName": "compliance"
+        },
+        {
           "section": "nosotros",
-          "link": "/es/nosotros.html",
+          "link": "nosotros.html",
           "viewName": "aboutus"
         },
         {
           "section": "blog",
-          "link": "/es/index.html",
+          "link": "index.html",
           "viewName": "blog"
         },
         {
           "section": "contacto",
-          "link": "/es/contacto.html",
+          "link": "contacto.html",
           "viewName": "contact"
         }
       ]
     },
     "home": {
+      "contactLink": "/contacto.html",
       "cover": {
-        "introPart1": "campos y campos",
+        "introPart1": "campos & campos",
         "introPart2": "abogados",
         "carousel": [
           {
@@ -41,8 +47,11 @@
             "btn": "contacto"
           },
           {
-            "textPart1": "especialistas",
-            "textPart2": "en derecho penal",
+            "slideTwoIntroClass": "home-cover-slide-two-intro",
+            "slideTwoClass": "home-cover-slide-two",
+            "textPart1": "compliance penal",
+            "desc": "control, supervisión y vigilancia",
+            "descPart2": "corporativa",
             "btn": "contacto"
           }
         ]
@@ -51,24 +60,44 @@
         "title": "servicios",
         "carousel": [
           {
-            "img": "/img/home/home-criminal-investigation.png",
-            "desc": "investigación penal"
+            "img": "/img/home/carpeta-de-investigacion.png",
+            "desc": "carpeta de investigación"
           },
           {
-            "img": "/img/home/home-criminal-process.jpg",
-            "desc": "proceso penal"
+            "img": "/img/home/amparo-penal.png",
+            "desc": "amparo penal"
           },
           {
-            "img": "/img/home/home-protection.png",
-            "desc": "amparo"
-          },
-          {
-            "img": "/img/home/home-execution-sentences.jpg",
+            "img": "/img/home/ejecucion-de-sentencias.png",
             "desc": "ejecución de sentencias"
           },
           {
-            "img": "/img/home/home-compliance.png",
-            "desc": "compliance"
+            "img": "/img/home/compliance-penal.png",
+            "desc": "compliance penal"
+          },
+          {
+            "img": "/img/home/consultoria-juridica.png",
+            "desc": "consultoría jurídica"
+          },
+          {
+            "img": "/img/home/asesoria-para-manejo-de-crisis-en-contexto-litigioso.png",
+            "desc": "asesoría para manejo de crisis en contexto litigioso"
+          },
+          {
+            "img": "/img/home/derecho-penal-economico-y-financiero.png",
+            "desc": "derecho penal económico y financiero"
+          },
+          {
+            "img": "/img/home/derecho-penal-patrimonial-y-fiscal.png",
+            "desc": "derecho penal patrimonial y fiscal"
+          },
+          {
+            "img": "/img/home/derecho-mercantil-corporativo-y-contratos.jpg",
+            "desc": "derecho mercantil, corporativo y contratos"
+          },
+          {
+            "img": "/img/home/extradicion.jpg",
+            "desc": "extradición"
           }
         ]
       },
@@ -175,27 +204,32 @@
       "sections": [
         {
           "section": "servicios",
-          "link": "/es/servicios.html",
+          "link": "servicios.html",
           "viewName": "services"
         },
         {
+          "section": "compliance",
+          "link": "compliance.html",
+          "viewName": "compliance"
+        },
+        {
           "section": "nosotros",
-          "link": "/es/nosotros.html",
+          "link": "nosotros.html",
           "viewName": "aboutus"
         },
         {
           "section": "blog",
-          "link": "/es/blog.html",
+          "link": "blog.html",
           "viewName": "blog"
         },
         {
           "section": "contacto",
-          "link": "/es/contacto.html",
+          "link": "contacto.html",
           "viewName": "contact"
         }
       ],
       "privacySection": "Aviso de Privacidad",
-      "privacyLink": "/es/aviso-privacidad.html",
+      "privacyLink": "aviso-privacidad.html",
       "privacyViewName": "notice-privacy",
       "copyright": "Copyright® Campos & Campos 2018"
     }

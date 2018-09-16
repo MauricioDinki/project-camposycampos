@@ -47,8 +47,11 @@
             "btn": "contacto"
           },
           {
-            "textPart1": "especialistas",
-            "textPart2": "en derecho penal",
+            "slideTwoIntroClass": "home-cover-slide-two-intro",
+            "slideTwoClass": "home-cover-slide-two",
+            "textPart1": "compliance penal",
+            "desc": "control, supervisión y vigilancia",
+            "descPart2": "corporativa",
             "btn": "contacto"
           }
         ]

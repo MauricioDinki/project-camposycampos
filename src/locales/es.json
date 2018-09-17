@@ -105,6 +105,8 @@
         "title": "compliance",
         "subtitlePart1": "CUIDAMOS LA",
         "subtitlePart2": "SEGURIDAD DE TU EMPRESA",
+        "complianceBtn": "compliance",
+        "complianceLink": "compliance.html",
         "btn": "contacto",
         "images": [
           {

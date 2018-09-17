@@ -10,7 +10,8 @@
     text-transform uppercase
 
   &-content
-    margin 100px auto 0 auto
+    border-bottom solid 1px $grayT1
+    margin 100px auto 60px auto
     width 804px
 
   &-card
@@ -22,6 +23,10 @@
       &:nth-child(2),
       &:nth-child(5)
         flex-direction row-reverse
+
+        & .services-card-info
+          align-items flex-end
+          text-align right
 
     &-info
       display flex
@@ -41,6 +46,13 @@
       line-height 23px
       margin-top 20px
       text-transform uppercase
+
+    &-paragraph
+      color $whiteT1
+      font-size 12px
+      letter-spacing 1.6px
+      line-height 20px
+      margin-top 15px
 
   &-criminal-investigation
     height 262px
@@ -69,6 +81,51 @@
   &-compliance
     box-shadow 0 31px 30px 0 rgba(0, 0, 0, 0.5)
     width auto
+
+  &-other
+    &-title
+      color $whiteT1
+      font-size 12px
+      letter-spacing 10px
+      text-align center
+      text-indent 10px
+      text-transform uppercase
+
+    &-card
+      height 229.15px
+      position relative
+      width 160px
+
+      &-container
+        display flex
+        flex-wrap wrap
+        justify-content center
+        margin-top 60px
+
+      &-img
+        height 229.15px
+        opacity 0.5
+        width 160px
+
+      &-title
+        bottom 15px
+        color $whiteT1
+        font-size 10px
+        left 15px
+        letter-spacing 4px
+        line-height 16px
+        position absolute
+        right 15px
+        text-transform uppercase
+
+@media screen and (max-width 1030px)
+  .services
+    &-other
+      &-card
+        &-container
+          margin-left auto
+          margin-right auto
+          width 480px
 
 @media screen and (max-width 900px)
   .services

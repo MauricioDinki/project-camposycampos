@@ -1,0 +1,43 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Compliance Penal{% endblock %}
+
+{% set view_name = 'compliance' %}
+
+{% block content %}
+<section class="compliance">
+  <section class="compliance-cover">
+    <h1 class="compliance-cover-title bebasneue-bold">{{es.compliance.cover.title}}</h1>
+    <p class="compliance-cover-desc helveneue">{{es.compliance.cover.desc}}</p>
+  </section>
+
+  <section class="compliance-info">
+    {% for panel in es.compliance.info %}
+    <div class="compliance-info-container">
+      <img class="compliance-info-img" src="{{panel.img}}" alt="{{panel.imgAlt}}">
+      <div class="compliance-info-content">
+        <h2 class="compliance-info-title bebasneue-bold">{{panel.title}}{% if panel.titlePart1 %}{{panel.titlePart1}}<br><span>{{panel.titlePart2}}</span>{% endif %}</h2>
+        <p class="compliance-info-desc helveneue">{{panel.desc}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="compliance-ethical">
+    <img class="compliance-ethical-img" src="{{es.compliance.ethical.img}}" alt="{{es.compliance.ethical.img}}">
+    <div class="compliance-ethical-card">
+      <h2 class="compliance-ethical-title bebasneue-bold">{{es.compliance.ethical.title}}</h2>
+      <p class="compliance-ethical-desc helveneue">{{es.compliance.ethical.desc}}</p>
+      <div class="compliance-ethical-btns">
+        <a href="">
+          <button class="btn helveneue-medium">{{es.compliance.ethical.btnDownload}}</button>
+        </a>
+        <a href="{{es.compliance.ethical.btnContactLink}}">
+          <button class="btn helveneue-medium">{{es.compliance.ethical.btnContact}}</button>
+        </a>
+      </div>
+    </div>
+  </section>
+</section>
+<div class="backgrounds-services"></div>
+{% endblock %}

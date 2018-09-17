@@ -139,10 +139,14 @@
         width 10px
 
     &-content
+      background-color $blackT1
       position relative
 
     &-img
       height 391px
+      object-fit cover
+      object-position cover
+      opacity 0.5 !important
       width 273px !important
 
     &-desc
@@ -289,7 +293,7 @@
           top initial
 
         & .owl-dot
-          margin 0 34px
+          margin 0 20px
 
 @media screen and (max-width 870px)
   .home
@@ -361,7 +365,12 @@
           right 0
 
         & .owl-dot
-          margin 0 13px
+          margin 0 10px
+
+      &-desc
+        font-size 12px
+        left 22px
+        width 228px
 
       &-img
         height 168px

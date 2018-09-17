@@ -15,7 +15,7 @@
         },
         {
           "section": "compliance",
-          "link": "compliance.html",
+          "link": "compliance-penal.html",
           "viewName": "compliance"
         },
         {
@@ -55,7 +55,7 @@
             "descPart2": "corporativa",
             "logo": "/img/logos/logo-compliance.png",
             "btn": "compliance penal",
-            "btnLink": "compliance.html"
+            "btnLink": "compliance-penal.html"
           }
         ]
       },
@@ -109,7 +109,7 @@
         "subtitlePart1": "CUIDAMOS LA",
         "subtitlePart2": "SEGURIDAD DE TU EMPRESA",
         "complianceBtn": "compliance",
-        "complianceLink": "compliance.html",
+        "complianceLink": "compliance-penal.html",
         "btn": "contacto",
         "images": [
           {
@@ -224,6 +224,36 @@
         ]
       }
     },
+    "compliance": {
+      "cover": {
+        "title": "compliance penal",
+        "desc": "Campos & Campos abogados somos una de las firmas legales en México pioneras en Compliance Penal. La firma cuenta con personal capacitado y certificado en Universidades extranjeras impulsoras en la cultura de prevención en materia penal."
+      },
+      "info": [
+        {
+          "img": "/img/compliance/compliance-trato.jpg",
+          "imgAlt": "Trato en Compliance Penal",
+          "titlePart1": "programa",
+          "titlePart2": "de cumplimiento",
+          "desc": "Asimismo, Campos & Campos abogados es una de las pocas firmas que han implementado internamente un programa de cumplimiento en materia penal o compliance penal dentro de la firma, lo cual representa el compromiso que tiene con la difusión e implementación de una cultura corporativa de prevención."
+        },
+        {
+          "img": "/img/compliance/compliance-abogado.jpg",
+          "imgAlt": "Abogado listo para el Compliance Penal",
+          "title": "servicios",
+          "desc": "Si quieres saber más acerca de los servicios que la firma ofrece en materia de compliance penal, te invitamos a ver la presentación de servicios."
+        }
+      ],
+      "ethical": {
+        "img": "/img/compliance/compliance-edificio.jpg",
+        "imgAlt": "Código penal en Compliance Penal",
+        "title": "código ético",
+        "desc": "Si quieres conocer el Código Ético de nuestra firma, presiona aquí",
+        "btnDownload": "descargar",
+        "btnContact": "contactar",
+        "btnContactLink": "contacto.html"
+      }
+    },
     "aboutus": {
       "title": "nosotros",
       "intro": {
@@ -295,7 +325,7 @@
         },
         {
           "section": "compliance",
-          "link": "compliance.html",
+          "link": "compliance-penal.html",
           "viewName": "compliance"
         },
         {

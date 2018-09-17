@@ -44,7 +44,8 @@
           {
             "textPart1": "especialistas",
             "textPart2": "en derecho penal",
-            "btn": "contacto"
+            "btn": "contacto",
+            "btnLink": "contacto.html"
           },
           {
             "slideTwoIntroClass": "home-cover-slide-two-intro",
@@ -52,7 +53,9 @@
             "textPart1": "compliance penal",
             "desc": "control, supervisión y vigilancia",
             "descPart2": "corporativa",
-            "btn": "contacto"
+            "logo": "/img/logos/logo-compliance.png",
+            "btn": "compliance penal",
+            "btnLink": "compliance.html"
           }
         ]
       },
@@ -145,8 +148,9 @@
           "imgClass": "services-criminal-investigation",
           "imgAlt": "If you require a service of criminal investigation",
           "number": ".01",
-          "desc": "investigación",
-          "descLineBreak": "penal"
+          "desc": "carpeta de",
+          "descLineBreak": "investigación",
+          "paragraph": "Como firma, nos caracterizamos por ofrecer una defensa penal de calidad, así como una debida asesoría jurídica realizando acusaciones en la etapa inicial ante la Procuraduría General de la República, así como en las Procuradurías Estatales y las diversas Fiscalías en la Ciudad de México, mismas que darán origen a una Carpeta de investigación."
         },
         {
           "img": "/img/services/service-criminal-process.jpg",
@@ -154,31 +158,71 @@
           "imgAlt": "If you require a service of criminal process",
           "number": ".02",
           "desc": "proceso",
-          "descLineBreak": "penal"
-        },
-        {
-          "img": "/img/services/service-execution-sentences.jpg",
-          "imgClass": "services-execution-sentences",
-          "imgAlt": "If you require a service of execution sentences",
-          "number": ".03",
-          "desc": "ejecución",
-          "descLineBreak": "de sentencias"
+          "descLineBreak": "penal",
+          "paragraph": "En el nuevo Sistema Procesal Penal tanto como defensores como coadyuvantes, nuestra prioridad siempre es defender los intereses de nuestros clientes, razón por lo cual atendemos personalmente el proceso en cada una de sus etapas, ya sea inicial, intermedia o de juicio oral."
         },
         {
           "img": "/img/services/service-protection.jpg",
+          "imgClass": "services-execution-sentences",
+          "imgAlt": "If you require a service of execution sentences",
+          "number": ".03",
+          "desc": "amparo penal",
+          "paragraph": "El juicio de amparo representa un juicio extraordinario que deriva de las violaciones a derechos humanos que realizan las autoridades y en muchos casos representa el medio más eficaz para proteger los intereses de nuestros clientes."
+        },
+        {
+          "img": "/img/services/service-execution-sentences.jpg",
           "imgClass": "services-protection",
           "imgAlt": "If you require a service of protection",
           "number": ".04",
-          "desc": "amparo"
+          "desc": "ejecución",
+          "descLineBreak": "de sentencias",
+          "paragraph": "Como especialistas en la materia penal, nuestra firma también representa los intereses de los clientes en la etapa de ejecución de las penas o medidas de seguridad impuestas, buscando siempre obtener los mayores beneficios a favor de nuestros clientes."
         },
         {
           "img": "/img/services/service-compliance.jpg",
           "imgClass": "services-compliance",
           "imgAlt": "If you require a service of compliance",
           "number": ".05",
-          "desc": "compliance"
+          "desc": "compliance",
+          "descLineBreak": "penal",
+          "paragraph": "En Campos & Campos abogados protegemos tu empresa frente a cualquier ilícito que se cometa en el seno de la empresa o por un representante de la misma, estableciendo controles y políticas internas, todas llevadas a cabo conforme a los lineamientos internacionales (compliance programs) y de calidad (ISO)."
         }
-      ]
+      ],
+      "others": {
+        "title": "otros servicios",
+        "cards": [
+          {
+            "img": "/img/home/consultoria-juridica.png",
+            "imgAlt": "Consultoría jurídica",
+            "title": "consultoría jurídica"
+          },
+          {
+            "img": "/img/home/asesoria-para-manejo-de-crisis-en-contexto-litigioso.png",
+            "imgAlt": "Asesoría para manejo de crisis en contexto litigioso",
+            "title": "asesoría para manejo de crisis en contexto litigioso"
+          },
+          {
+            "img": "/img/home/derecho-penal-economico-y-financiero.png",
+            "imgAlt": "Derecho penal económico y financiero",
+            "title": "derecho penal económico y financiero"
+          },
+          {
+            "img": "/img/home/derecho-penal-patrimonial-y-fiscal.png",
+            "imgAlt": "Derecho penal patrimonial y fiscal",
+            "title": "derecho penal patrimonial y fiscal"
+          },
+          {
+            "img": "/img/home/derecho-mercantil-corporativo-y-contratos.jpg",
+            "imgAlt": "Derecho mercantil corporativo y contratos",
+            "title": "derecho mercantil corporativo y contratos"
+          },
+          {
+            "img": "/img/home/extradicion.jpg",
+            "imgAlt": "Extradición",
+            "title": "extradición"
+          }
+        ]
+      }
     },
     "aboutus": {
       "title": "nosotros",

@@ -14,9 +14,22 @@
       <div class="services-card-info">
         <span class="services-card-number bebasneue-bold">{{card.number}}</span>
         <span class="services-card-desc helveneue-bold">{{card.desc}}{% if card.descLineBreak %}<br>{{card.descLineBreak}}{% endif %}</span>
+        <p class="services-card-paragraph helveneue">{{card.paragraph}}</p>
       </div>
     </div>
     {% endfor %}
+  </section>
+
+  <section class="services-other">
+    <h2 class="services-other-title helveneue-bold">{{es.services.others.title}}</h2>
+    <div class="services-other-card-container">
+      {% for card in es.services.others.cards %}
+      <div class="services-other-card">
+        <img class="services-other-card-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+        <span class="services-other-card-title helveneue-bold">{{card.title}}</span>
+      </div>
+      {% endfor %}
+    </div>
   </section>
 </section>
 <div class="backgrounds-services"></div>

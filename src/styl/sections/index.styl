@@ -55,6 +55,14 @@
         display inline-block
         margin 28px 0 36px 0
 
+      &-logo
+        height 42px
+        margin-top 36px
+        width 167px !important
+
+      & .owl-height
+        transition height 0.2s ease-in-out
+
       & .owl-prev
         margin-right 34px
 
@@ -139,10 +147,14 @@
         width 10px
 
     &-content
+      background-color $blackT1
       position relative
 
     &-img
       height 391px
+      object-fit cover
+      object-position cover
+      opacity 0.5 !important
       width 273px !important
 
     &-desc
@@ -158,7 +170,7 @@
 
   &-compliance
     &-info
-      align-items flex-end
+      align-items center
       display flex
       flex-direction column
       margin 25px auto 97px auto
@@ -187,6 +199,13 @@
       &-container
         display flex
         justify-content center
+
+    &-btns
+      display flex
+      flex-direction row
+
+      & a:first-child
+        margin-right 15px
 
   &-blog
     margin 110px auto 120px auto
@@ -282,7 +301,7 @@
           top initial
 
         & .owl-dot
-          margin 0 34px
+          margin 0 20px
 
 @media screen and (max-width 870px)
   .home
@@ -310,6 +329,8 @@
 
 @media screen and (max-width 630px)
   .home
+    margin-top 100px
+
     &-cover
       &-intro
         font-size 7px
@@ -325,13 +346,17 @@
           letter-spacing 2.1px
           line-height 33px
 
+        &-subtitle
+          text-align center
+          width 280px
+
         & .owl-nav
           position absolute
           right 0
 
         & .owl-dots
           bottom initial
-          top -40px
+          top 10px
 
         & .owl-dot
           margin 13px 0
@@ -352,7 +377,12 @@
           right 0
 
         & .owl-dot
-          margin 0 13px
+          margin 0 10px
+
+      &-desc
+        font-size 12px
+        left 22px
+        width 228px
 
       &-img
         height 168px
@@ -390,7 +420,7 @@
         left initial
         padding 0 25px
         right 15px
-        width 230px
+        width 78%
 
         &-title
           font-size 17px

@@ -4,6 +4,7 @@ homeCoverCarousel.owlCarousel ({
   loop: false,
   nav: true,
   dots: true,
+  autoHeight: true,
   navText: ['<img class="carousel-arrow" src="/img/icons/icon-arrow-left.png" />', '<img class="carousel-arrow" src="/img/icons/icon-arrow-right.png" />'],
   margin: 20,
   responsive:{

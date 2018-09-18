@@ -10,7 +10,7 @@
       text-align center
       text-indent 10px
       text-transform uppercase
-      width 996px
+      width 830px
 
       &:after
         background-color $grayT1
@@ -31,11 +31,12 @@
 
   &-info
     margin 80px auto 0 auto
-    width 996px
+    width 830px
 
     &-container
       display flex
       flex-direction row
+      margin-bottom 58px
 
       &:nth-child(2)
         flex-direction row-reverse
@@ -50,8 +51,8 @@
       padding-left 100px
 
     &-img
-      height 350px
-      width auto
+      height 100%
+      width 338px
 
     &-title
       color $whiteT1
@@ -70,19 +71,23 @@
       width 335px
 
   &-ethical
-    margin 60px auto 90px auto
+    margin 68px auto 130px auto
     position relative
-    width 996px
+    width 830px
 
     &-img
       width 100%
 
     &-card
       background-color $whiteT1
-      bottom -45px
-      padding 60px
+      display flex
+      flex-direction column
+      height 231px
+      justify-content center
+      padding-left 75px
       position absolute
-      width 550px
+      top 37%
+      width 459px
 
     &-title
       color $blackT1
@@ -108,3 +113,79 @@
 
     &-btns a:nth-child(2) button
       color $grayT1
+
+      &:hover
+        color $whiteT1
+
+@media screen and (max-width 890px)
+  .compliance
+    &-cover
+      &-title
+        padding 0 30px
+        width 100%
+
+    &-info
+      width auto
+
+      &-container,
+      &-container:nth-child(2)
+        align-items center
+        flex-direction column
+
+      &-container
+        margin-bottom 60px
+
+    &-ethical
+      padding 0 30px
+      width 100%
+
+@media screen and (max-width 560px)
+  .compliance
+    &-cover
+      &-title
+        font-size 35px
+
+      &-desc
+        padding 0 30px
+        width auto
+
+    &-info
+      &-container
+        &:nth-child(2) .compliance-info-content
+          padding 0 30px
+
+      &-img
+        height auto
+        padding 0 30px
+        width 100%
+
+      &-content
+        padding 0 30px
+
+      &-desc
+        width auto
+
+    &-ethical
+      margin-bottom 170px
+
+      &-card
+        height auto
+        padding 39px 30px
+        width 310px
+
+      &-desc
+        width auto
+
+      &-btns
+        & a:nth-child(1) button
+          margin 0 14px 0 0
+
+@media screen and (max-width 390px)
+  .compliance
+    &-ethical
+      &-card
+        width 230px
+
+      &-btns
+        & a:nth-child(1) button
+          margin 0 0 10px 0

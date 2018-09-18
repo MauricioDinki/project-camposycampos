@@ -5,7 +5,7 @@ server {
   root /home/static/project-camposycampos;
   index index.html index.htm;
 
-  server_name sandbox.camposycampos.getmore.mx;
+  server_name  camposycampos.mx www.camposycampos.mx sandbox.camposycampos.getmore.mx;
 
   location / {
       try_files $uri $uri/ =404;

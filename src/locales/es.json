@@ -25,7 +25,7 @@
         },
         {
           "section": "blog",
-          "link": "index.html",
+          "link": "http://blog.camposycampos.mx",
           "viewName": "blog"
         },
         {
@@ -52,7 +52,7 @@
             "slideTwoClass": "home-cover-slide-two",
             "textPart1": "compliance penal",
             "desc": "control, supervisión y vigilancia",
-            "descPart2": "corporativa",
+            "descPart2": "corporativa.",
             "logo": "/img/logos/logo-compliance.png",
             "btn": "compliance penal",
             "btnLink": "compliance-penal.html"
@@ -108,7 +108,7 @@
         "title": "compliance",
         "subtitlePart1": "CUIDAMOS LA",
         "subtitlePart2": "SEGURIDAD DE TU EMPRESA",
-        "complianceBtn": "compliance",
+        "complianceBtn": "compliance penal",
         "complianceLink": "compliance-penal.html",
         "btn": "contacto",
         "images": [
@@ -335,7 +335,7 @@
         },
         {
           "section": "blog",
-          "link": "blog.html",
+          "link": "http://blog.camposycampos.mx",
           "viewName": "blog"
         },
         {

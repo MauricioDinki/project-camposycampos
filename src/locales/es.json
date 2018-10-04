@@ -42,8 +42,8 @@
         "introPart2": "abogados",
         "carousel": [
           {
-            "textPart1": "especialistas",
-            "textPart2": "en derecho penal",
+            "textPart1": "sistema",
+            "textPart2": "penal acusatorio",
             "btn": "contacto",
             "btnLink": "contacto.html"
           },

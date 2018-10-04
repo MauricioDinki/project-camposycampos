@@ -1,10 +1,12 @@
 var homeCoverCarousel = $('.home-cover-carousel');
 
 homeCoverCarousel.owlCarousel ({
-  loop: false,
+  loop: true,
   nav: true,
   dots: true,
   autoHeight: true,
+  autoplay: true,
+  autoplayTimeout: 3000,
   navText: ['<img class="carousel-arrow" src="/img/icons/icon-arrow-left.png" />', '<img class="carousel-arrow" src="/img/icons/icon-arrow-right.png" />'],
   margin: 20,
   responsive:{

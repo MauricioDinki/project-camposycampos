@@ -1,9 +1,11 @@
 var homeServicesCarousel = $('.home-services-carousel');
 
 homeServicesCarousel.owlCarousel ({
-  loop: false,
+  loop: true,
   nav: true,
   dots: true,
+  autoplay: true,
+  autoplayTimeout: 3000,
   navText: ['<img class="carousel-arrow" src="/img/icons/icon-arrow-left.png" />', '<img class="carousel-arrow" src="/img/icons/icon-arrow-right.png" />'],
   margin: 0,
   autoWidth: true,

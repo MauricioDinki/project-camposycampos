@@ -7,29 +7,61 @@
 {% block content %}
 <section class="compliance">
   <section class="compliance-cover">
-    <h1 class="compliance-cover-title bebasneue-bold">{{es.compliance.cover.title}}</h1>
-    <p class="compliance-cover-desc helveneue">{{es.compliance.cover.desc}}</p>
+    <img src="/img/backgrounds/compliance-penal-compliance.jpg" alt="Cover de la vista de compliance">
   </section>
 
-  <section class="compliance-info">
-    {% for panel in es.compliance.info %}
-    <div class="compliance-info-container">
-      <img class="compliance-info-img" src="{{panel.img}}" alt="{{panel.imgAlt}}">
-      <div class="compliance-info-content">
-        <h2 class="compliance-info-title bebasneue-bold">{{panel.title}}{% if panel.titlePart1 %}{{panel.titlePart1}}<br><span>{{panel.titlePart2}}</span>{% endif %}</h2>
-        <p class="compliance-info-desc helveneue">{{panel.desc}}</p>
+  <section class="compliance-intro">
+    <p class="compliance-intro-desc helveneue">Campos & Campos abogados somos una de las firmas legales en México pioneras en Compliance Penal. La firma cuenta con personal capacitado y certificado en Universidades extranjeras impulsoras en la cultura de prevención en materia penal.</p>
+    <p class="compliance-intro-desc helveneue">Asimismo, Campos & Campos abogados es una de las firmas que han implementado internamente un programa de cumplimiento en materia penal o compliance dentro de la misma, lo cual representa el compromiso que tiene con la difusión e implementación de una cultura corporativa de prevención.</p>
+  </section>
+
+  <section class="compliance-list">
+    <div class="col1">
+      <div class="info-content">
+        <h6 class="helveneue-medium">Fases de implementación de un programa de cumplimiento penal:</h6>
+        <p class="helveneue">Análisis e identificación de riesgos</p>
+        <p class="helveneue">Controles para la mitigación de los riesgos de índole penal</p>
+        <p class="helveneue">Código de ética</p>
+        <p class="helveneue">Canal de denuncias</p>
+        <p class="helveneue">Evalauación, formación, y capacitación del personal</p>
+        <p class="helveneue">Apoyo para la designación de un responsable interno o externo para la evaluación y supervisión de los riesgos de forma periódica (órgano de control)</p>
       </div>
+      <img src="/img/compliance/compliance-fases.jpg" alt="Imagen representativa para las fases de implementación...">
     </div>
-    {% endfor %}
+    <div class="col2">
+      <div class="info-content">
+        <h6 class="helveneue-medium">Entre los delitos más relevantes que pueden ser cometidos por una empresa dentro del ámbito penal están:</h6>
+        <p class="helveneue">Defraudación fiscal</p>
+        <p class="helveneue">Lavado de dinero</p>
+        <p class="helveneue">Delitos que involucren actos de corrupción</p>
+        <p class="helveneue">Cohecho</p>
+        <p class="helveneue">Tráfico de influencias</p>
+        <p class="helveneue">Discriminación</p>
+        <p class="helveneue">Delitos en contra del medio ambiente</p>
+      </div>
+      <img src="/img/compliance/compliance-delitos.jpg" alt="Imagen representativa para las fases de implementación...">
+    </div>
+  </section>
+
+  <section class="compliance-services">
+    <img src="/img/compliance/compliance-servicios.jpg" alt="Imagen de la sección Servicios, en la vista de Compliance Penal">
+    <div class="compliance-services-info">
+      <h2 class="bebasneue-bold">servicios</h2>
+      <p class="helveneue">Si quieres saber más acerca de los servicios que la firma ofrece en materia de compliance penal, te invitamos a ver la   de servicios.</p>
+      <a href="/img/compliance.pdf" download>
+        <button class="btn helveneue-medium">descargar</button>
+      </a>
+    </div>
   </section>
 
   <section class="compliance-ethical">
-    <img class="compliance-ethical-img" src="{{es.compliance.ethical.img}}" alt="{{es.compliance.ethical.img}}">
     <div class="compliance-ethical-card">
-      <h2 class="compliance-ethical-title bebasneue-bold">{{es.compliance.ethical.title}}</h2>
-      <p class="compliance-ethical-desc helveneue">{{es.compliance.ethical.desc}}</p>
+      <div>
+        <h2 class="compliance-ethical-title bebasneue-bold">{{es.compliance.ethical.title}}</h2>
+        <p class="compliance-ethical-desc helveneue">{{es.compliance.ethical.desc}}</p>
+      </div>
       <div class="compliance-ethical-btns">
-        <a href="">
+        <a href="/img/compliance.pdf" download>
           <button class="btn helveneue-medium">{{es.compliance.ethical.btnDownload}}</button>
         </a>
         <a href="{{es.compliance.ethical.btnContactLink}}">
@@ -39,5 +71,4 @@
     </div>
   </section>
 </section>
-<div class="backgrounds-services"></div>
 {% endblock %}

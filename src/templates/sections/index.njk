@@ -8,18 +8,20 @@
 <section class="home">
   <section class="home-cover">
     <div class="home-cover-carousel owl-carousel">
-      {% for carousel in es.home.cover.carousel %}
-      <div class="{{carousel.slideTwoClass}}">
-        <span class="home-cover-intro {{carousel.slideTwoIntroClass}} helveneue-bold">{{es.home.cover.introPart1}}<span class="helveneue">{{es.home.cover.introPart2}}</span></span>
-        <h2 class="home-cover-carousel-title bebasneue-bold">{{carousel.textPart1}}{% if carousel.textPart2 %}<br>{{carousel.textPart2}}{% endif %}</h2>
-        {% if carousel.desc %}<h3 class="home-cover-carousel-subtitle helveneue">{{carousel.desc}} <span class="helveneue">{{carousel.descPart2}}</span></h3>{% endif %}
-        {% if carousel.logo %}<img class="home-cover-carousel-logo" src="{{carousel.logo}}">{% endif %}
-        <a href="{{carousel.btnLink}}">
-          <button class="btn helveneue-medium">{{carousel.btn}}</button>
+      <div class="home-cover-slide slide-one">
+        <h1 class="home-cover-text-one bebasneue-bold">sistema penal acusatorio</h1>
+        <a href="contacto.html">
+          <button class="btn helveneue-medium">contacto</button>
         </a>
       </div>
-      {% endfor %}
+      <div class="home-cover-slide slide-two">
+        
+      </div>
     </div>
+  </section>
+
+  <section class="home-specialists">
+    <h2 class="home-specialists-title bebasneue-bold">Abogados especialistas en derecho penal</h2>
   </section>
 
   <section class="home-services">

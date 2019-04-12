@@ -1,9 +1,18 @@
 .home
-  margin-top 160px
+  margin-top 50px
 
   &-cover
-    height 450px
-    margin 0 139px
+    margin 120px auto 0 auto
+    width 82%
+
+    &-text
+      &-one
+        color $whiteT1
+        font-size 76px
+        letter-spacing 3.6px
+        line-height 70px
+        text-align center
+        width 425px
 
     &-intro
       border-bottom solid 1px $grayT1
@@ -21,58 +30,78 @@
         margin-left 22px
 
     &-slide
-      &-two
+      &.slide-one
         align-items center
+        background-image url("../img/backgrounds/home-cover-1.jpg")
+        background-position center
+        background-repeat no-repeat
+        background-size cover
         display flex
         flex-direction column
+        height 410px
+        padding-top 100px
 
-        &-intro
-          text-align center
-          width 520px
+        & a
+          margin-top 37px
+
+      &.slide-two
+        align-items center
+        background-image url("../img/backgrounds/compliance-penal-cover.jpg")
+        background-position center
+        background-repeat no-repeat
+        background-size cover
+        height 410px
+
+      &.slide-one,
+      &.slide-two
+        & .owl-prev,
+        & .owl-next
+          bottom 72px
+          background-color transparent
+          border none
+          cursor pointer
+          margin 0 auto
+          padding 0
+          position absolute
+          width 27px
+
+        & .owl-prev
+          left 0
+          right 60px
+
+        & .owl-next
+          left 60px
+          right 0
+
+      &.slide-two
+        & .owl-prev,
+        & .owl-next
+          bottom 17%
+          margin 0 0 0 15%
 
     &-carousel
       margin 0 0 90px 0
       position relative
 
-      &-title
-        color $whiteT1
-        font-size $fs76
-        letter-spacing 3.6px
-        line-height 70px
-        text-transform uppercase
-
-      &-subtitle
-        color $whiteT1
-        font-size 11px
-        letter-spacing 3.2px
-        line-height 20px
-        margin-top 10px
-        text-transform uppercase
-
-        & span
-          color $grayT1
-
-      & a
-        display inline-block
-        margin 28px 0 36px 0
-
-      &-logo
-        height 42px
-        margin-top 36px
-        width 167px !important
-
       & .owl-height
         transition height 0.2s ease-in-out
 
-      & .owl-prev
-        margin-right 34px
-
-      & .owl-dots
-        bottom 112px
-        display flex
-        flex-direction column
+      & .owl-nav
+        bottom 72px
+        left 0
+        margin 0 auto
         position absolute
         right 0
+        width 90px
+
+      & .owl-dots
+        bottom 0
+        display flex
+        flex-direction column
+        justify-content center
+        position absolute
+        right 53px
+        top 0
 
       & .owl-dot
         background-color $grayT1 !important
@@ -95,6 +124,19 @@
           position absolute
           top 0
           width 10px
+
+  &-specialists
+    margin-bottom 90px
+
+    &-title
+      color $whiteT1
+      font-size 46px
+      letter-spacing 3.6px
+      line-height 42px
+      margin 0 auto
+      text-align center
+      text-indent 3.6px
+      width 500px
 
   &-services
     &-title
@@ -304,6 +346,25 @@
 
 @media screen and (max-width 1000px)
   .home
+    &-cover
+      &-slide
+        &.slide-one,
+        &.slide-two
+          height 290px
+
+        &.slide-one
+          padding-top 64px
+
+        &.slide-two
+          & .owl-prev,
+          & .owl-next
+            bottom 8%
+
+      &-text
+        &-one
+          font-size 60px
+          line-height 66px
+
     &-services
       &-carousel
         & .owl-dots
@@ -317,9 +378,6 @@
 
 @media screen and (max-width 870px)
   .home
-    &-cover
-      margin 0 30px
-
     &-services
       &-carousel
         width 546px
@@ -339,41 +397,52 @@
         margin 0 auto
         right 0
 
+@media screen and (max-width 700px)
+  .home
+    &-cover
+      &-slide
+        &.slide-one,
+        &.slide-two
+          height 235px
+
+        &.slide-one
+          padding-top 40px
+
+      &-text
+        &-one
+          font-size 40px
+          line-height 46px
+
 @media screen and (max-width 630px)
   .home
-    margin-top 100px
-
     &-cover
-      height 370px
+      // &-slide
+      //   &.slide-one
+      //     height 370px
+      //     padding-top 40px
 
-      &-intro
-        font-size 7px
-        letter-spacing 3px
-        width 220px
-
-        & span
-          margin-left 11px
+      &-text
+        &-one
+          font-size 45px
+          line-height 50px
 
       &-carousel
-        &-title
-          font-size 32px
-          letter-spacing 2.1px
-          line-height 33px
-
-        &-subtitle
-          text-align center
-          width 280px
-
         & .owl-nav
           position absolute
           right 0
 
         & .owl-dots
-          bottom initial
-          top 10px
+          bottom 72px
+          justify-content flex-end
 
         & .owl-dot
           margin 13px 0
+
+    &-specialists
+      &-title
+        font-size 28px
+        line-height 30px
+        width auto
 
     &-services
       &-carousel
@@ -441,6 +510,10 @@
           letter-spacing 7.3px
           line-height 20px
 
+  .carousel-arrow
+    height 11px
+    width auto !important
+
   .compliance
     &-2
       margin 34px 0 0 120px
@@ -450,3 +523,33 @@
 
     &-4
       margin 33px 82px 0 0
+
+@media screen and (max-width 580px)
+  .home
+    &-cover
+      margin-top 95px
+
+      &-slide
+        &.slide-one,
+        &.slide-two
+          height 129px
+
+        &.slide-one
+          padding-top 30px
+
+          & a
+            margin-top 28px
+
+          & .owl-prev,
+          & .owl-next
+            bottom 55px
+
+        &.slide-two
+          & .owl-prev,
+          & .owl-next
+            bottom 8%
+
+      &-text
+        &-one
+          font-size 17px
+          line-height 26px

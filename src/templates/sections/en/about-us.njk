@@ -1,0 +1,29 @@
+{% extends "partials/base-en.njk" %}
+
+{% block title %}Nosotros{% endblock %}
+
+{% set view_name = 'aboutus' %}
+
+{% block content %}
+<section class="aboutus">
+  <section class="aboutus-intro">
+    <h1 class="aboutus-intro-title bebasneue-bold">{{en.aboutus.title}}</h1>
+    <div class="aboutus-intro-content">
+      <img class="aboutus-intro-img" src="{{en.aboutus.intro.img}}">
+      <div class="aboutus-info">
+        <div class="aboutus-info-headers">
+          <h3 class="aboutus-info-subtitle helveneue-medium">{{en.aboutus.intro.subtitle}}</h3>
+          <h2 class="aboutus-info-title bebasneue-bold">{{en.aboutus.intro.title}}</h2>
+        </div>
+        <div class="aboutus-info-body">
+          <p class="aboutus-info-desc helveneue">{{en.aboutus.intro.descOne}}<br><br>{{en.aboutus.intro.descTwo}}</p>
+          <a href="{{en.aboutus.intro.btnLink}}">
+            <button class="btn helveneue-medium">{{en.aboutus.intro.btn}}</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+<div class="backgrounds-aboutus"></div>
+{% endblock %}

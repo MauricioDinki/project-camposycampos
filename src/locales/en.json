@@ -4,28 +4,33 @@
       "logo": "/img/logos/logo-cyc-white.png",
       "sections": [
         {
-          "section": "inicio",
-          "link": "/es/index.html",
+          "section": "Home",
+          "link": "/en/index.html",
           "viewName": "home"
         },
         {
-          "section": "servicios",
-          "link": "/es/servicios.html",
+          "section": "services",
+          "link": "/en/services.html",
           "viewName": "services"
         },
         {
-          "section": "nosotros",
-          "link": "/es/nosotros.html",
+          "section": "compliance",
+          "link": "criminal-compilance.html",
+          "viewName": "compliance"
+        },
+        {
+          "section": "about us",
+          "link": "/en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "section": "blog",
-          "link": "/es/index.html",
+          "link": "/en/index.html",
           "viewName": "blog"
         },
         {
-          "section": "contacto",
-          "link": "/es/contacto.html",
+          "section": "contact",
+          "link": "/en/contact.html",
           "viewName": "contact"
         }
       ]
@@ -34,32 +39,263 @@
       "logo": "/img/logos/logo-cyc-white.png",
       "sections": [
         {
-          "section": "servicios",
-          "link": "/es/servicios.html",
+          "section": "Home",
+          "link": "/en/index.html",
+          "viewName": "home"
+        },
+        {
+          "section": "services",
+          "link": "/en/services.html",
           "viewName": "services"
         },
         {
-          "section": "nosotros",
-          "link": "/es/nosotros.html",
+          "section": "compliance",
+          "link": "criminal-compilance.html",
+          "viewName": "compliance"
+        },
+        {
+          "section": "about us",
+          "link": "/en/about-us.html",
           "viewName": "aboutus"
         },
         {
           "section": "blog",
-          "link": "/es/blog.html",
+          "link": "/en/index.html",
           "viewName": "blog"
         },
         {
-          "section": "contacto",
-          "link": "/es/contacto.html",
+          "section": "contact",
+          "link": "/en/contact.html",
           "viewName": "contact"
-        },
-        {
-          "section": "Aviso de Privacidad",
-          "link": "/es/aviso-privacidad.html",
-          "viewName": "notice-privacy"
         }
       ],
-      "copyright": "Copyright® Campos & Campos 2018"
+      "copyright": "Copyright® Campos & Campos 2018",
+      "privacySection": "Privacy Notice",
+      "privacyLink": "/aviso-privacidad.html",
+      "privacyViewName": "notice-privacy"
+    },
+    "home": {
+      "contactLink": "contact.html",
+      "cover": {
+        "title": "Abogados especialistas en derecho penal",
+        "carousel": {
+          "slide_1": {
+            "text": "sistema penal acusatorio",
+            "btn": "contacto"
+          }
+        }
+      },
+      "services": {
+        "title": "servicios",
+        "carousel": [
+          {
+            "img": "/img/home/carpeta-de-investigacion.png",
+            "desc": "carpeta de investigación"
+          },
+          {
+            "img": "/img/home/amparo-penal.png",
+            "desc": "amparo penal"
+          },
+          {
+            "img": "/img/home/ejecucion-de-sentencias.png",
+            "desc": "ejecución de sentencias"
+          },
+          {
+            "img": "/img/home/compliance-penal.png",
+            "desc": "compliance penal"
+          },
+          {
+            "img": "/img/home/consultoria-juridica.png",
+            "desc": "consultoría jurídica"
+          },
+          {
+            "img": "/img/home/asesoria-para-manejo-de-crisis-en-contexto-litigioso.png",
+            "desc": "asesoría para manejo de crisis en contexto litigioso"
+          },
+          {
+            "img": "/img/home/derecho-penal-economico-y-financiero.png",
+            "desc": "derecho penal económico y financiero"
+          },
+          {
+            "img": "/img/home/derecho-penal-patrimonial-y-fiscal.png",
+            "desc": "derecho penal patrimonial y fiscal"
+          },
+          {
+            "img": "/img/home/derecho-mercantil-corporativo-y-contratos.jpg",
+            "desc": "derecho mercantil, corporativo y contratos"
+          },
+          {
+            "img": "/img/home/extradicion.jpg",
+            "desc": "extradición"
+          }
+        ]
+      },
+      "compliance": {
+        "title": "compliance",
+        "subtitlePart1": "CUIDAMOS LA",
+        "subtitlePart2": "SEGURIDAD DE TU EMPRESA",
+        "complianceBtn": "compliance penal",
+        "complianceLink": "compliance-penal.html",
+        "btn": "contacto",
+        "images": [
+          {
+            "item": "/img/home/home-compliance-1.jpg",
+            "itemClass": "compliance-1"
+          },
+          {
+            "item": "/img/home/home-compliance-2.jpg",
+            "itemClass": "compliance-2"
+          },
+          {
+            "item": "/img/home/home-compliance-3.jpg",
+            "itemClass": "compliance-3"
+          },
+          {
+            "item": "/img/home/home-compliance-4.jpg",
+            "itemClass": "compliance-4"
+          },
+          {
+            "item": "/img/home/home-compliance-5.jpg",
+            "itemClass": "compliance-5"
+          }
+        ]
+      },
+      "blog": {
+        "img": "/img/home/panorama-angel-independencia.jpg",
+        "title": "conoce más",
+        "subtitle": "entradas blog"
+      }
+    },
+    "aboutus": {
+      "title": "about us",
+      "intro": {
+        "img": "/img/aboutus/aboutus-building.jpg",
+        "title": "working together",
+        "subtitle": "our history",
+        "descOne": "Campos, Campos & Uribe is a law firm founded by criminal lawyers with extensive experience in various areas of criminal law, with the thought of providing our clients with advice and defense of their interests unconditionally, always using knowledge along with strategy as the best action to achieve our only truth: the legal.",
+        "descTwo": "Our firm is committed to provide only a service of excellence, so our members are in constant training at various universities nationally and internationally always aware that knowledge creates and experience distinguishes.",
+        "btn": "contact",
+        "btnLink": "contact.html"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "info": [
+        {
+          "img": "/img/services/service-criminal-investigation.jpg",
+          "imgClass": "services-criminal-investigation",
+          "imgAlt": "If you require a service of criminal investigation",
+          "number": ".01",
+          "desc": "criminal",
+          "descLineBreak": "complaint",
+          "paragraph": "As a firm, we are known for offering a quality criminal defense, as well as due legal advice making accusations in the initial stage before the Attorney General's Office of the Republic, as well as in the State Attorney's Offices and the various Prosecutor's Offices in Mexico City, which will give rise to a Criminal Complaint"
+        },
+        {
+          "img": "/img/services/service-criminal-process.jpg",
+          "imgClass": "services-criminal-process",
+          "imgAlt": "If you require a service of criminal process",
+          "number": ".02",
+          "desc": "New System of",
+          "descLineBreak": "Criminal Procedure",
+          "paragraph": "In the new system of Criminal Procedure, both as defenders and assistants, our priority is always to defend the interests of our clients, which is why we personally attend the process in each of its stages, whether initial, intermediate or oral trial."
+        },
+        {
+          "img": "/img/services/service-protection.jpg",
+          "imgClass": "services-execution-sentences",
+          "imgAlt": "If you require a service of execution sentences",
+          "number": ".03",
+          "desc": "Amparo Trial",
+          "paragraph": "The amparo trial represents an extraordinary lawsuit that derives from the human rights violations carried out by the authorities and in many cases represents the most effective means to protect the interests of our clients."
+        },
+        {
+          "img": "/img/services/service-execution-sentences.jpg",
+          "imgClass": "services-protection",
+          "imgAlt": "If you require a service of protection",
+          "number": ".04",
+          "desc": "Execution ",
+          "descLineBreak": "of Sentences",
+          "paragraph": "As specialists in criminal matters, our firm also represents the interests of clients at the stage of execution of the penalties or security measures imposed, always seeking to obtain the greatest benefits in favor of our clients."
+        },
+        {
+          "img": "/img/services/service-compliance.jpg",
+          "imgClass": "services-compliance",
+          "imgAlt": "If you require a service of compliance",
+          "number": ".05",
+          "desc": "Criminal ",
+          "descLineBreak": "Compliance",
+          "paragraph": "At Campos, Campos & Uribe we protect your company against any illicit act committed within the company or by a representative of the same, establishing internal controls and policies, all carried out according to international guidelines (compliance programs) and quality (ISO)."
+        }
+      ],
+      "others": {
+        "title": "Other services",
+        "cards": [
+          {
+            "img": "/img/home/consultoria-juridica.png",
+            "imgAlt": "Legal consulting",
+            "title": "Legal consulting"
+          },
+          {
+            "img": "/img/home/asesoria-para-manejo-de-crisis-en-contexto-litigioso.png",
+            "imgAlt": "Crisis management consulting in litigious context",
+            "title": "Crisis management consulting in litigious context"
+          },
+          {
+            "img": "/img/home/derecho-penal-economico-y-financiero.png",
+            "imgAlt": "Economic and financial criminal law",
+            "title": "Economic and financial criminal law"
+          },
+          {
+            "img": "/img/home/derecho-penal-patrimonial-y-fiscal.png",
+            "imgAlt": "Property and tax criminal law",
+            "title": "Property and tax criminal law"
+          },
+          {
+            "img": "/img/home/derecho-mercantil-corporativo-y-contratos.jpg",
+            "imgAlt": "Corporate commercial law and contracts",
+            "title": "Corporate commercial law and contracts"
+          },
+          {
+            "img": "/img/home/extradicion.jpg",
+            "imgAlt": "Extradition ",
+            "title": "Extradition"
+          }
+        ]
+      }
+    },
+    "compliance": {
+      "cover": {
+        "title": "compliance penal",
+        "desc": "Campos & Campos abogados somos una de las firmas legales en México pioneras en Compliance Penal. La firma cuenta con personal capacitado y certificado en Universidades extranjeras impulsoras en la cultura de prevención en materia penal."
+      },
+      "info": [
+        {
+          "img": "/img/compliance/compliance-trato.jpg",
+          "imgAlt": "Trato en Compliance Penal",
+          "titlePart1": "programa",
+          "titlePart2": "de cumplimiento",
+          "desc": "Asimismo, Campos & Campos abogados es una de las pocas firmas que han implementado internamente un programa de cumplimiento en materia penal o compliance penal dentro de la firma, lo cual representa el compromiso que tiene con la difusión e implementación de una cultura corporativa de prevención."
+        },
+        {
+          "img": "/img/compliance/compliance-abogado.jpg",
+          "imgAlt": "Abogado listo para el Compliance Penal",
+          "title": "servicios",
+          "desc": "Si quieres saber más acerca de los servicios que la firma ofrece en materia de compliance penal, te invitamos a ver la presentación de servicios."
+        }
+      ],
+      "ethical": {
+        "img": "/img/compliance/compliance-edificio.jpg",
+        "imgAlt": "Code of Ethics",
+        "title": "Code of Ethics",
+        "desc": "If you want to know our firm's Code of Ethics, click her",
+        "btnDownload": "download",
+        "btnContact": "contact",
+        "btnContactLink": "contact.html"
+      }
+    },
+    "contact": {
+      "title": "contact",
+      "btn": "send",
+      "img": "/img/contact/contact-building.jpg"
     }
   }
 }

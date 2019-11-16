@@ -1,0 +1,74 @@
+{% extends "partials/base-en.njk" %}
+
+{% block title %}Criminal Compliance{% endblock %}
+
+{% set view_name = 'compliance' %}
+
+{% block content %}
+<section class="compliance">
+  <section class="compliance-cover">
+    <img src="/img/backgrounds/compliance-penal-compliance.jpg" alt="Cover de la vista de compliance">
+  </section>
+
+  <section class="compliance-intro">
+    <p class="compliance-intro-desc helveneue">Campos, Campos & Uribe we are one of the pioneering law firms in Mexico in Criminal Compliance. The firm has trained and certified personnel in foreign universities promoting the culture of prevention in criminal matters..</p>
+    <p class="compliance-intro-desc helveneue">In addition, Campos, Campos & Uribe is one of the firms that has internally implemented a criminal compliance program, which represents its commitment to the promotion and implementation of a corporate culture of prevention..</p>
+  </section>
+
+  <section class="compliance-list">
+    <div class="col1">
+      <div class="info-content">
+        <h6 class="helveneue-medium">Phases of implementation of a criminal compliance program:</h6>
+        <p class="helveneue">Risk analysis and identification</p>
+        <p class="helveneue">Controls for the mitigation of criminal risks</p>
+        <p class="helveneue">Code of Ethics</p>
+        <p class="helveneue">Complaint Channel</p>
+        <p class="helveneue">Evaluation, training, and staff development</p>
+        <p class="helveneue">Support for the appointment of an internal or external risk assessment and monitoring officer.</p>
+      </div>
+      <img src="/img/compliance/compliance-fases.jpg" alt="Imagen representativa para las fases de implementación...">
+    </div>
+    <div class="col2">
+      <div class="info-content">
+        <h6 class="helveneue-medium">Among the most relevant crimes that can be committed by a company are:</h6>
+        <p class="helveneue">Tax fraud</p>
+        <p class="helveneue">Money laundering</p>
+        <p class="helveneue">Corruption acts </p>
+        <p class="helveneue">Bribery</p>
+        <p class="helveneue">Influence peddling</p>
+        <p class="helveneue">Discrimination</p>
+        <p class="helveneue">Crimes against the environment</p>
+      </div>
+      <img src="/img/compliance/compliance-delitos.jpg" alt="Imagen representativa para las fases de implementación...">
+    </div>
+  </section>
+
+  <section class="compliance-services">
+    <img src="/img/compliance/compliance-servicios.jpg" alt="Imagen de la sección Servicios, en la vista de Compliance Penal">
+    <div class="compliance-services-info">
+      <h2 class="bebasneue-bold">Services</h2>
+      <p class="helveneue">SIf you want to know more about the services the firm offers in criminal compliance, we invite you to see the services.</p>
+      <a href="/img/compliance.pdf" download>
+        <button class="btn helveneue-medium">download</button>
+      </a>
+    </div>
+  </section>
+
+  <section class="compliance-ethical">
+    <div class="compliance-ethical-card">
+      <div>
+        <h2 class="compliance-ethical-title bebasneue-bold">{{en.compliance.ethical.title}}</h2>
+        <p class="compliance-ethical-desc helveneue">{{en.compliance.ethical.desc}}</p>
+      </div>
+      <div class="compliance-ethical-btns">
+        <a href="/img/compliance.pdf" download>
+          <button class="btn helveneue-medium">{{en.compliance.ethical.btnDownload}}</button>
+        </a>
+        <a href="{{en.compliance.ethical.btnContactLink}}">
+          <button class="btn helveneue-medium">{{en.compliance.ethical.btnContact}}</button>
+        </a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

@@ -38,26 +38,13 @@
     "home": {
       "contactLink": "/contacto.html",
       "cover": {
-        "introPart1": "campos & campos",
-        "introPart2": "abogados",
-        "carousel": [
-          {
-            "textPart1": "sistema",
-            "textPart2": "penal acusatorio",
-            "btn": "contacto",
-            "btnLink": "contacto.html"
-          },
-          {
-            "slideTwoIntroClass": "home-cover-slide-two-intro",
-            "slideTwoClass": "home-cover-slide-two",
-            "textPart1": "compliance penal",
-            "desc": "control, supervisión y vigilancia",
-            "descPart2": "corporativa.",
-            "logo": "/img/logos/logo-compliance.png",
-            "btn": "compliance penal",
-            "btnLink": "compliance-penal.html"
+        "title": "Abogados especialistas en derecho penal",
+        "carousel": {
+          "slide_1": {
+            "text": "sistema penal acusatorio",
+            "btn": "contacto"
           }
-        ]
+        }
       },
       "services": {
         "title": "servicios",
@@ -262,7 +249,9 @@
         "subtitle": "nuestra historia",
         "descOne": "Campos, Campos & Uribe es una firma legal fundada por abogados penalistas con amplia experiencia en diversas áreas del derecho penal, con el pensamiento de brindarle a nuestros clientes una asesoría y defensa de sus intereses de forma incondicional, siempre utilizando el conocimiento junto con la estrategia como la mejor acción para alcanzar nuestra única verdad: la jurídica.",
         "descTwo": "Nuestra firma está comprometida en brindar únicamente un servicio de excelencia, por lo que nuestros integrantes están en constante capacitación en distintas universidades a nivel nacional e internacional siempre conscientes que la razón impera, el conocimiento crea y la experiencia distingue.",
-        "btn": "contacto"
+        "btn": "contacto",
+        "btnLink": "./contacto.html"
+
       }
     },
     "contact": {

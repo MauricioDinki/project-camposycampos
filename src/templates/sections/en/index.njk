@@ -1,0 +1,64 @@
+{% extends "partials/base-en.njk" %}
+
+{% block title %}Especialistas en derecho penal:{% endblock %}
+
+{% set view_name = 'home' %}
+
+{% block content %}
+<section class="home">
+  <section class="home-cover">
+    <div class="home-cover-carousel owl-carousel">
+      <div class="home-cover-slide slide-one">
+        <h1 class="home-cover-text-one bebasneue-bold">{{en.home.cover.carousel.slide_1.text}}</h1>
+        <a href="{{en.home.contactLink}}">
+          <button class="btn helveneue-medium">{{en.home.cover.carousel.slide_1.btn}}</button>
+        </a>
+      </div>
+      <div class="home-cover-slide slide-two">
+      </div>
+    </div>
+  </section>
+  <section class="home-specialists">
+    <h2 class="home-specialists-title bebasneue-bold">{{en.home.cover.title}}</h2>
+  </section>
+  <section class="home-services">
+    <h2 class="home-services-title helveneue-bold">{{en.home.services.title}}</h2>
+    <div class="home-services-carousel owl-carousel">
+      {% for service in en.home.services.carousel %}
+      <div class="home-services-content">
+        <img class="home-services-img" src="{{service.img}}">
+        <span class="home-services-desc helveneue-bold">{{service.desc}}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="home-compliance">
+    <h2 class="home-compliance-title helveneue-bold">{{en.home.compliance.title}}</h2>
+    <div class="home-compliance-info">
+      <h3 class="home-compliance-subtitle bebasneue-bold">{{en.home.compliance.subtitlePart1}}<br><span>{{en.home.compliance.subtitlePart2}}</span></h3>
+      <div class="home-compliance-btns">
+        <a href="{{en.home.compliance.complianceLink}}">
+          <button class="btn helveneue-medium">{{en.home.compliance.complianceBtn}}</button>
+        </a>
+        <a href="{{en.home.contactLink}}">
+          <button class="btn helveneue-medium">{{en.home.compliance.btn}}</button>
+        </a>
+      </div>
+    </div>
+    <div class="home-compliance-img-container">
+      {% for img in en.home.compliance.images %}
+      <img class="home-compliance-img {{img.itemClass}}" src="{{img.item}}">
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-blog">
+    <img class="home-blog-img" src="{{en.home.blog.img}}">
+    <div class="home-blog-headers">
+      <h3 class="home-blog-title helveneue-bold">{{en.home.blog.title}}</h3>
+      <h4 class="home-blog-subtitle bebasneue-bold">{{en.home.blog.subtitle}}</h4>
+    </div>
+    <div class="home-blog-card"></div>
+  </section>
+</section>
+{% endblock %}

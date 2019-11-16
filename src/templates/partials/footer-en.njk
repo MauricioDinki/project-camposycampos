@@ -1,0 +1,18 @@
+<footer class="footer">
+  <div class="footer-logo-container">
+    <a href="index.html">
+      <img class="footer-logo" src="{{en.footer.logo}}" alt="Logo of the footer">
+    </a>
+  </div>
+  <div class="footer-section-container">
+    {% for section in en.footer.sections %}
+    <a href="{{section.link}}">
+      <span class="footer-section helveneue-medium">{{section.section}}</span>
+    </a>
+    {% endfor %}
+  </div>
+  <a href="{{en.footer.privacyLink}}">
+    <span class="footer-privacy helveneue-medium">{{en.footer.privacySection}}</span>
+  </a>
+  <span class="footer-copyright helveneue-medium">{{en.footer.copyright}} <script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+</footer>

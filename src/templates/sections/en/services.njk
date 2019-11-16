@@ -1,0 +1,36 @@
+{% extends "partials/base-en.njk" %}
+
+{% block title %}Services{% endblock %}
+
+{% set view_name = 'services' %}
+
+{% block content %}
+<section class="services">
+  <h1 class="services-title bebasneue-bold">{{en.services.title}}</h1>
+  <section class="services-content">
+    {% for card in en.services.info %}
+    <div class="services-card-container">
+      <img class="{{card.imgClass}}" src="{{card.img}}" alt="{{card.imgAlt}}">
+      <div class="services-card-info">
+        <span class="services-card-number bebasneue-bold">{{card.number}}</span>
+        <span class="services-card-desc helveneue-bold">{{card.desc}}{% if card.descLineBreak %}<br>{{card.descLineBreak}}{% endif %}</span>
+        <p class="services-card-paragraph helveneue">{{card.paragraph}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="services-other">
+    <h2 class="services-other-title helveneue-bold">{{en.services.others.title}}</h2>
+    <div class="services-other-card-container">
+      {% for card in en.services.others.cards %}
+      <div class="services-other-card">
+        <img class="services-other-card-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+        <span class="services-other-card-title helveneue-bold">{{card.title}}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+<div class="backgrounds-services"></div>
+{% endblock %}

@@ -77,66 +77,66 @@
     "home": {
       "contactLink": "contact.html",
       "cover": {
-        "title": "Abogados especialistas en derecho penal",
+        "title": "Lawyers specialising in criminal law",
         "carousel": {
           "slide_1": {
-            "text": "sistema penal acusatorio",
-            "btn": "contacto"
+            "text": "criminal accusatory system",
+            "btn": "contact"
           }
         }
       },
       "services": {
-        "title": "servicios",
+        "title": "services",
         "carousel": [
           {
             "img": "/img/home/carpeta-de-investigacion.png",
-            "desc": "carpeta de investigación"
+            "desc": "criminal complaint"
           },
           {
             "img": "/img/home/amparo-penal.png",
-            "desc": "amparo penal"
+            "desc": "Amparo Trial"
           },
           {
             "img": "/img/home/ejecucion-de-sentencias.png",
-            "desc": "ejecución de sentencias"
+            "desc": "Execution of Sentences"
           },
           {
             "img": "/img/home/compliance-penal.png",
-            "desc": "compliance penal"
+            "desc": "Criminal Compilance"
           },
           {
             "img": "/img/home/consultoria-juridica.png",
-            "desc": "consultoría jurídica"
+            "desc": "Legal consulting"
           },
           {
             "img": "/img/home/asesoria-para-manejo-de-crisis-en-contexto-litigioso.png",
-            "desc": "asesoría para manejo de crisis en contexto litigioso"
+            "desc": "Crisis management consulting in litigious context"
           },
           {
             "img": "/img/home/derecho-penal-economico-y-financiero.png",
-            "desc": "derecho penal económico y financiero"
+            "desc": "Economic and financial criminal law"
           },
           {
             "img": "/img/home/derecho-penal-patrimonial-y-fiscal.png",
-            "desc": "derecho penal patrimonial y fiscal"
+            "desc": "Property and tax criminal law"
           },
           {
             "img": "/img/home/derecho-mercantil-corporativo-y-contratos.jpg",
-            "desc": "derecho mercantil, corporativo y contratos"
+            "desc": "Corporate commercial law and contracts"
           },
           {
             "img": "/img/home/extradicion.jpg",
-            "desc": "extradición"
+            "desc": "Extradition"
           }
         ]
       },
       "compliance": {
         "title": "compliance",
-        "subtitlePart1": "CUIDAMOS LA",
-        "subtitlePart2": "SEGURIDAD DE TU EMPRESA",
-        "complianceBtn": "compliance penal",
-        "complianceLink": "compliance-penal.html",
-        "btn": "contacto",
+        "subtitlePart1": "WE TAKE CARE OF THE",
+        "subtitlePart2": "SECURITY OF YOUR COMPANY",
+        "complianceBtn": "criminal compilance",
+        "complianceLink": "criminal-compilance.html",
+        "btn": "contact",
         "images": [
           {
             "item": "/img/home/home-compliance-1.jpg",
@@ -162,8 +162,8 @@
       },
       "blog": {
         "img": "/img/home/panorama-angel-independencia.jpg",
-        "title": "conoce más",
-        "subtitle": "entradas blog"
+        "title": "Know More",
+        "subtitle": "Blog Entries"
       }
     },
     "aboutus": {

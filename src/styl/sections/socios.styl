@@ -1,0 +1,119 @@
+.socios
+  margin-top 150px
+
+  &-intro
+    margin 0 auto
+    width 773px
+
+    &-content
+      display flex
+      flex-direction column
+      margin-top 40px
+
+    &-title
+      color $blueT3
+      font-size 58px
+      letter-spacing 10px
+      text-transform uppercase
+
+    &-img
+      height 384px
+      width 333px
+
+  &-info
+    &-headers
+      border-bottom solid 1px $grayT1
+      padding 7px 0 5px 10px
+
+    &-subtitle
+      color $blueT3
+      font-size $fs9
+      letter-spacing 4px
+      text-transform uppercase
+
+    &-title
+      color $blueT3
+      font-size 19px
+      letter-spacing 9px
+      line-height 35px
+      text-transform uppercase
+
+    &-body
+      padding 15px 0 0 9px
+      ul
+        list-style none
+        padding 10px
+        li
+          color: #242e56;
+          font-size: 15px;
+          letter-spacing: 1.3px;
+          line-height: 18px;
+          margin-bottom: 10px;
+          text-align: justify;
+          font-family: 'HelveticaNeue';
+          font-weight: 400;
+          -webkit-font-smoothing: antialiased;
+        li:before
+          content "\25CB"
+          color $blueT3
+          font-weight bold
+          display inline-block
+          width 1em
+          margin-left -1em
+
+    &-desc
+      color $blueT3
+      font-size 15px
+      letter-spacing 1.3px
+      line-height 18px
+      margin-bottom 30px
+      text-align justify
+
+@media screen and (max-width 860px)
+  .socios
+    margin-bottom 50px
+
+    &-intro
+      width 700px
+
+      &-content
+        flex-direction column
+        margin 0
+
+    &-info
+      margin-top 40px
+
+      &-headers,
+      &-body
+        padding-left 30px
+
+@media screen and (max-width 500px)
+  .socios
+    margin-top 100px
+    margin-bottom 0
+
+    &-intro
+      width 80%//280px
+
+      &-content
+        flex-direction column-reverse
+
+      &-title
+        font-size 40px
+
+      &-img
+        height auto//322px
+        width 100%//280px
+
+    &-info
+      margin 20px 0 0px 0
+      width 100%//280px
+
+      &-headers,
+      &-body
+        padding-left 0
+        padding-right 0
+
+      &-title
+        line-height 25px
+        margin 12px 0

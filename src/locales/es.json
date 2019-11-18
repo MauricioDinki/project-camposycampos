@@ -19,6 +19,11 @@
           "viewName": "compliance"
         },
         {
+          "section": "socios",
+          "link": "socios.html",
+          "viewName": "socios"
+        },
+        {
           "section": "nosotros",
           "link": "nosotros.html",
           "viewName": "aboutus"

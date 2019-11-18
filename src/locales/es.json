@@ -1,7 +1,7 @@
 {
   "es": {
     "nav": {
-      "logo": "/img/logos/logo-cyc-white.png",
+      "logo": "/img/logos/logo-cyc-blue.png",
       "sections": [
         {
           "section": "inicio",
@@ -306,7 +306,7 @@
       "descTwelvePart3": "de lunes a viernes de 9:00 a.m. a 5:00 p.m. o directamente al correo electrónico contacto@camposabogados.mx"
     },
     "footer": {
-      "logo": "/img/logos/logo-cyc-white.png",
+      "logo": "/img/logos/logo-cyc-blue.png",
       "sections": [
         {
           "section": "servicios",

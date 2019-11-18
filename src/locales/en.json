@@ -1,7 +1,7 @@
 {
   "en": {
     "nav": {
-      "logo": "/img/logos/logo-cyc-white.png",
+      "logo": "/img/logos/logo-cyc-blue.png",
       "sections": [
         {
           "section": "Home",
@@ -17,6 +17,11 @@
           "section": "compliance",
           "link": "criminal-compilance.html",
           "viewName": "compliance"
+        },
+        {
+          "section": "partners",
+          "link": "partners.html",
+          "viewName": "partners"
         },
         {
           "section": "about us",
@@ -36,7 +41,7 @@
       ]
     },
     "footer": {
-      "logo": "/img/logos/logo-cyc-white.png",
+      "logo": "/img/logos/logo-cyc-blue.png",
       "sections": [
         {
           "section": "Home",
